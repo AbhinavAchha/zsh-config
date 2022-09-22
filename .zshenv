@@ -1,2 +1,2 @@
-export ZDOTDIR=/home/abhi/zsh
-export HISTFILE=/home/abhi/scripts/dotfiles/.zsh_history
+export ZDOTDIR=$HOME/zsh
+export HISTFILE=$HOME/scripts/.zsh_history

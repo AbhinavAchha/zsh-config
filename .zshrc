@@ -11,6 +11,7 @@ source $HOME/zsh/key-bindings.zsh
 source $HOME/.p10k.zsh
 source $HOME/zsh/history.zsh
 source $HOME/scripts/aliases
+source $HOME/zsh/eval-cache.zsh
 
 source $HOME/zsh/options.zsh
 
