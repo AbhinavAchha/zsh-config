@@ -1,2 +1,2 @@
 export ZDOTDIR=$HOME/zsh
-export HISTFILE=$HOME/scripts/.zsh_history
+export HISTFILE=$HOME/dark-files/.zsh_history
