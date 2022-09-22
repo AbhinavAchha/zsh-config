@@ -6,8 +6,9 @@ export KEYTIMEOUT=1
 export RUST_BACKTRACE=full
 export TERM="xterm-256color"
 export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
-export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=240"
+export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=blue"
 export LESSHISTFILE=-
+export POSTGRESQL_URL='postgres://postgres:abhi@localhost:5432/muerpdb?sslmode=disable'
 
 export XDG_STATE_HOME=$HOME/.local/state
 export XDG_CACHE_HOME=$HOME/.cache
@@ -24,5 +25,6 @@ export NODE_REPL_HISTORY=$XDG_DATA_HOME/node_repl_history
 export PYTHONSTARTUP=$XDG_CONFIG_HOME/python/pythonrc
 export RUSTUP_HOME=$XDG_DATA_HOME/rustup
 export PNPM_HOME=$XDG_DATA_HOME/pnpm
+ 
 
 export PATH=$HOME/bin:$HOME/.local/bin:$HOME/.config/yarn/global/node_modules/.bin:$HOME/.local/share/pnpm:$XDG_DATA_HOME/go/bin:$PATH
