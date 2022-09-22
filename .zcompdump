@@ -474,6 +474,8 @@ _comps=(
 'fold' '_fold'
 'folder' '_mh'
 'folders' '_mh'
+'foot' '_foot'
+'footclient' '_footclient'
 'force' '_force'
 'fortune' '_fortune'
 'forw' '_mh'
@@ -1049,7 +1051,6 @@ _comps=(
 'node' '_node'
 'noglob' '_precommand'
 'nohup' '_precommand'
-'notmuch' '_notmuch'
 'nova' '_openstack'
 'npm' '_npm'
 'ns' '_hosts'
@@ -1945,7 +1946,6 @@ _services=(
 
 _patcomps=(
 '*/(init|rc[0-9S]#).d/*' '_init_d'
-'notmuch-*' '_notmuch'
 )
 
 _postpatcomps=(
@@ -2019,21 +2019,21 @@ autoload -Uz _afew _android _archlinux-java _artisan _atach \
             _codium _coffee _composer _conan _concourse \
             _console _coredumpctl _cppcheck _cpu-x _curl \
             _dad _debuild _dget _dhcpcd _diana \
-            _docpad _drush _ecdsautil _email-notmuch _emulator \
-            _envdir _exa _exportfs _fab _fail2ban-client \
-            _fd _ffind _firewalld _flatpak _fleetctl \
-            _flutter _force _fwupdmgr _gas _gh \
-            _ghc _gist _git-flow _git-journal _git-pulls \
-            _git-revise _git-wtf _glances _golang _google \
-            _gpgconf _gtk-launch _hledger _homestead _hostnamectl \
-            _httpie _hyperfine _ibus _include-what-you-use _inxi \
-            _jmeter _jmeter-plugins _jonas _journalctl _jrnl \
-            _kak _kdeconnect _kernel-install _kitchen _knife \
-            _language_codes _libinput _lilypond _localectl _loginctl \
-            _lunchy _machinectl _mc _mercurial _middleman \
-            _mina _mix _mssh _mussh _mvn \
-            _nano _nanoc _networkctl _nftables _ninja \
-            _node _notmuch _nvm _nvme _openssl \
+            _docpad _drush _ecdsautil _emulator _envdir \
+            _exa _exportfs _fab _fail2ban-client _fd \
+            _ffind _firewalld _flatpak _fleetctl _flutter \
+            _foot _footclient _force _fwupdmgr _gas \
+            _gh _ghc _gist _git-flow _git-journal \
+            _git-pulls _git-revise _git-wtf _glances _golang \
+            _google _gpgconf _gtk-launch _hledger _homestead \
+            _hostnamectl _httpie _hyperfine _ibus _include-what-you-use \
+            _inxi _jmeter _jmeter-plugins _jonas _journalctl \
+            _jrnl _kak _kdeconnect _kernel-install _kitchen \
+            _knife _language_codes _libinput _lilypond _localectl \
+            _loginctl _lunchy _machinectl _mc _mercurial \
+            _middleman _mina _mix _mssh _mussh \
+            _mvn _nano _nanoc _networkctl _nftables \
+            _ninja _node _nvm _nvme _openssl \
             _optirun _opustools _patool _perf _periscope \
             _pgsql_utils _phing _pixz _pkcon _play \
             _pm2 _polybar _polybar_msg _port _protoc \
