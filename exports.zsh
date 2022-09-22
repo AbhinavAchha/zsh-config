@@ -9,6 +9,7 @@ export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quo
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=blue"
 export LESSHISTFILE=-
 export POSTGRESQL_URL='postgres://postgres:abhi@localhost:5432/muerpdb?sslmode=disable'
+export TERM=tmux-256color
 
 export XDG_STATE_HOME=$HOME/.local/state
 export XDG_CACHE_HOME=$HOME/.cache
@@ -27,4 +28,4 @@ export RUSTUP_HOME=$XDG_DATA_HOME/rustup
 export PNPM_HOME=$XDG_DATA_HOME/pnpm
  
 
-export PATH=$HOME/bin:$HOME/.local/bin:$HOME/.config/yarn/global/node_modules/.bin:$HOME/.local/share/pnpm:$XDG_DATA_HOME/go/bin:$PATH
+export PATH=$HOME/bin:$HOME/.local/bin:$HOME/.config/yarn/global/node_modules/.bin:$HOME/.local/share/pnpm:$XDG_DATA_HOME/go/bin:$HOME/.local/share/cargo/bin:/usr/local/go/bin:$PATH
