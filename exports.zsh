@@ -10,3 +10,18 @@ export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quo
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=240"
 export LESSHISTFILE=-
 export PNPM_HOME="/home/abhi/.local/share/pnpm"
+
+export XDG_STATE_HOME=$HOME/.local/state
+export XDG_CACHE_HOME=$HOME/.cache
+export XDG_CONFIG_HOME=$HOME/.config
+export XDG_DATA_HOME=$HOME/.local/share
+
+export ANDROID_HOME=$XDG_DATA_HOME/android
+export CARGO_HOME=$XDG_DATA_HOME/cargo
+export GNUPGHOME=$XDG_DATA_HOME/gnupg
+export GOPATH=$XDG_DATA_HOME/go
+export GTK2_RC_FILES=$XDG_CONFIG_HOME/gtk-2.0/gtkrc
+export KDEHOME=$XDG_CONFIG_HOME/kde
+export NODE_REPL_HISTORY="$XDG_DATA_HOME"/node_repl_history
+export PYTHONSTARTUP=$XDG_CONFIG_HOME/python/pythonrc
+export RUSTUP_HOME=$XDG_DATA_HOME/rustup
