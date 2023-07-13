@@ -115,3 +115,5 @@ bindkey '^I' complete-word
 # Fix weird sequence that rxvt produces
 bindkey -s '^[[Z' '\t'
 #
+#
+bindkey -s '^v' 'vimf\n'

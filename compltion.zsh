@@ -60,7 +60,7 @@ zstyle ':completion:*' verbose yes
 bindkey -M menuselect '^@' accept-and-infer-next-history
 
 # case-insensitive -> partial-word (cs) -> substring completion:
-zstyle ':completion:*' matcher-list 'r:|[._-]=* r:|=*' 'l:|=* r:|=*'  
+zstyle ':completion:*' matcher-list 'r:|[._-]=* r:|=*' 'l:|=* r:|=*'
 
 # caching of completion stuff
 zstyle ':completion:*' use-cache on

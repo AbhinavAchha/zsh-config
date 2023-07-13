@@ -203,14 +203,14 @@ function take() {
 }
 
 
-if [[ -x /usr/libexec/pk-command-not-found ]]; then
-  command_not_found_handler() {
-    if [[ -S /var/run/dbus/system_bus_socket && -x /usr/libexec/packagekitd ]]; then
-      /usr/libexec/pk-command-not-found "$@"
-      return $?
-    fi
-
-    printf "zsh: command not found: %s\n" "$1" >&2
-    return 127
-  }
-fi
+# if [[ -x /usr/libexec/pk-command-not-found ]]; then
+#   command_not_found_handler() {
+#     if [[ -S /var/run/dbus/system_bus_socket && -x /usr/libexec/packagekitd ]]; then
+#       /usr/libexec/pk-command-not-found "$@"
+#       return $?
+#     fi
+#
+#     printf "zsh: command not found: %s\n" "$1" >&2
+#     return 127
+#   }
+# fi
