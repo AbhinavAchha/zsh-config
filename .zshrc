@@ -6,3 +6,8 @@
 
 . <(cat ~/zsh/*.zsh ~/zsh/.*.zsh)
 bindkey -v
+
+# bun completions
+[ -s "/home/abhi/.bun/_bun" ] && source "/home/abhi/.bun/_bun"
+
+eval "$(atuin init zsh)"
