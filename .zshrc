@@ -10,4 +10,4 @@ bindkey -v
 # bun completions
 [ -s "/home/abhi/.bun/_bun" ] && source "/home/abhi/.bun/_bun"
 
-eval "$(atuin init zsh)"
+eval "$(atuin init zsh --disable-up-arrow)"

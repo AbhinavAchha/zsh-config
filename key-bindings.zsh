@@ -116,4 +116,5 @@ bindkey '^I' complete-word
 bindkey -s '^[[Z' '\t'
 #
 #
+bindkey -s '^b' 'rgf\n'
 bindkey -s '^v' 'vimf\n'
