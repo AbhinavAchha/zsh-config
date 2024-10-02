@@ -1,13 +1,12 @@
 # Setup fzf
 # ---------
-if [[ ! "$PATH" == */home/abhi/.fzf/bin* ]]; then
-  export PATH="${PATH:+${PATH}:}/home/abhi/.fzf/bin"
+if [[ $PATH != */home/abhi/.fzf/bin* ]]; then
+    export PATH="${PATH:+${PATH}:}/home/abhi/.fzf/bin"
 fi
 
 # Key bindings
 # ------------
 source "/home/abhi/.fzf/shell/key-bindings.zsh"
-
 
 # Auto-completion
 # ---------------

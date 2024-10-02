@@ -125,10 +125,6 @@ function massmove () {
 #     done &
 # }
 
-function apt-import-key () {
-    gpg --keyserver subkeys.pgp.net --recv-keys $1 | gpg --armor --export $1 | sudo apt-key add -
-}
-
 # create a new script, automatically populating the shebang line, editing the
 # script, and making it executable.
 # http://www.commandlinefu.com/commands/view/8050/

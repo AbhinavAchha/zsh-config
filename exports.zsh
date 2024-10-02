@@ -7,7 +7,6 @@ export RUST_BACKTRACE=full
 export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=blue"
 export LESSHISTFILE=-
-export POSTGRESQL_URL='postgres://postgres:abhi@localhost:5432/muerpdb?sslmode=disable'
 export TERM=tmux-256color
 
 export XDG_STATE_HOME=$HOME/.local/state
@@ -29,5 +28,5 @@ export RIPGREP_CONFIG_PATH=$XDG_CONFIG_HOME/rg/ripgreprc
 export BUN_INSTALL="$HOME/.bun"
 export FX_THEME=7
 
-export PATH=$HOME/bin:$HOME/.local/bin:$HOME/.local/share/pnpm:$XDG_DATA_HOME/go/bin:$HOME/.local/share/cargo/bin:/usr/local/go/bin:$BUN_INSTALL/bin:$PATH
-export FPATH="$HOME/extras/rust/eza/completions/zsh:$FPATH"
+export PATH=$HOME/bin:$HOME/.local/bin:$HOME/.local/share/pnpm:$XDG_DATA_HOME/go/bin:$HOME/.local/share/cargo/bin:/usr/local/go/bin:$HOME/.local/share/nvim/mason/bin:$PATH:$BUN_INSTALL/bin:$PATH
+export FPATH=$HOME/extras/rust/eza/completions/zsh:$HOME/.docker/completions/:$HOME/.bun/:$FPATH
